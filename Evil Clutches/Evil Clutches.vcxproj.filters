@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{103d7b25-c27e-40ed-a114-1a14ef950e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OGE">
+      <UniqueIdentifier>{82372ca6-f14e-420b-98e6-700e41f51c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OGE">
+      <UniqueIdentifier>{805720f3-fc06-4393-ba4a-f33ff14c8683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\OGE">
+      <UniqueIdentifier>{7b0fb93b-bee8-498f-bea9-d0476960f53e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OGE\OWindow.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OBitmapFont.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OButton.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OTexture.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OTimer.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnCleanup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OEvent.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OAnimation.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OEntity.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OArea.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OMap.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OTile.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OCamera.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OFPS.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OUtil.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OEntityCollision.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OFontEntity.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Demon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnPaused.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CApp_OnReset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BabyDragon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OGE\OSound.cpp">
+      <Filter>Source Files\OGE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libvorbis-0.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libvorbisfile-3.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libwebp-4.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="SDL2_image.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="SDL2_mixer.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="SDL2_ttf.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="smpeg2.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="zlib1.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libFLAC-8.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libjpeg-9.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libmikmod-2.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libmodplug-1.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libogg-0.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libpng16-16.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libtiff-5.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="libfreetype-6.dll">
+      <Filter>Library Files</Filter>
+    </None>
+    <None Include="media\Music.mid">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OGE\OBitmapFont.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OButton.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OTexture.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OTimer.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OWindow.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="CApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OAnimation.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OEntity.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OArea.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OMap.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OTile.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OCamera.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OEvent.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OFPS.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OUtil.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OGE.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OFontEntity.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Demon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BabyDragon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGE\OSound.h">
+      <Filter>Header Files\OGE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\Baby.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\Background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\Boss.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\Demon.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\Dragon.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\EvilBaby.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\Fireball.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="media\Baby.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="media\Demon.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="media\Music.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="media\OpenSans-Bold.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="OGE\OpenSans-Bold.ttf">
+      <Filter>Resource Files\OGE</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
